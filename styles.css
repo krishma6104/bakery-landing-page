@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.upper{
+    background-color:white;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #dc3545;
+    color:brown;
+   
+}
+.upper p{
+     position:fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     background-color: white;
+     padding: 10px 0;
+     text-align: center;
+     border-bottom: 1px solid #dc3545;
+     color: brown;
+}
+.nav
+{
+    display: flex;
+   border-bottom: 1px solid #dc3545 ;
+}
+.right{
+    margin-left: auto;
+    padding: 25px;
+}
+.right a{
+    margin: 15px;
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+}
+.right a:hover{
+    color: rgb(169, 219, 239);
+}
+.right input[type="text"] {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #dc3545;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.right button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #fbb5bc;
+    color: brown;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 142px;
+}
+.right button:hover{
+    background-color: brown;
+    color: white;
+}
+.conup h2{
+    font-size: 2rem;
+    color: brown;
+    padding-bottom: 25px;
+}
+.conup{
+    text-align: center;
+    margin: 50px 0;
+    line-height: 2;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.conleft{
+    /* margin-left:90px; */
+    line-height: 1.7;
+}
+.conright{ margin-left: 30px;
+    /* margin-right: 90px; */
+    line-height: 1.7;
+}
+.leftup{
+text-align: center;
+margin-bottom: 70px;
+}
+.leftdown{
+    text-align: center;
+}
+.rightup{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.rightdown{
+    text-align: center;
+}
+.content button{
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: rgb(169, 219, 239);
+    border-radius: 25px;
+    width: 140px;
+    /* margin-left: 40px; */
+    color: brown;
+}
+.content button:hover{
+    background-color: brown;
+    color: white;
+}
+.content{
+    height: 900px;
+padding: 50px;
+    text-align: center;
+}
+.products{
+    background-color: #fee7f2;
+    padding: 40px;
+    text-align: center;
+
+}
+.products h2{
+    text-align: center;
+    color: brown;
+    font-size: 35px;
+}
+.procon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    gap: 10px;  
+    margin: 50px;
+    height: 100%;
+    padding: 15px;
+    padding-bottom: 40px;
+    /* width: 1300px; */
+}
+.cards img{
+    /* padding-top: 10px; */
+    height: 80%;
+    width: 90%;
+    margin: 20px;
+}
+.desc{
+    color: brown;
+    position: relative;
+    top: 0%;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+.desc p{
+    font-size: 20px;
+    text-align: center;
+}
+.products button{
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: rgb(169, 219, 239);
+    border-radius: 25px;
+    width: 140px;
+    color: brown;
+}
+.products button:hover{
+    background-color: brown;
+    color: white;
+}
+.packed{
+    display: flex;
+   margin-top: 80px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.packleft{
+    flex: 50%;
+    width: 50%;
+   
+    text-align: center;
+}
+.pleft p{
+    line-height: 1.4;
+}
+.pleft button{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: rgb(169, 219, 239);
+    border-radius: 25px;
+    width: 140px;
+    color: brown;
+}
+.pleft button:hover{
+    background-color: brown;
+    color: white;
+}
+.pleft{
+   text-align: justify;
+   margin-left: 90px;
+   margin-top: 90px;
+}
+.packleft h2{
+    font-size: 2rem;
+    color: brown;
+    padding-bottom: 25px;
+}
+.packright{
+    flex:50%;
+
+}
+.packright img{
+    width: 80%;
+    height: 90%;
+}
+.teatime{
+    display: flex;
+        background-color: #fee7f2;
+padding: 50px;
+}
+.tealeft{
+    flex: 50%;
+    animation-name: tea;
+}
+/* @keyframes tea{
+    0%{im};
+    20%{};
+    40%{};
+    60%{};
+    80%{};
+    100%{}
+} */
+
+.tealeft img{
+    width: 80%;
+    height: 90%;
+}
+.tearight{
+    flex: 50%;
+      /* width: 50%; */
+    text-align: left;
+}
+.tearight h2{
+    font-size: 2rem;
+    color: brown;
+    padding-bottom: 25px;
+}
+.tright{
+    padding: 100px;
+}
+.tright p{
+    line-height: 1.4;
+}
+.tright button{
+      margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: rgb(169, 219, 239);
+    border-radius: 25px;
+    width: 140px;
+    color: brown;
+}
+.tright button:hover{
+    background-color: brown;
+    color: white;
+}
+.testimonials{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.testimonials h2{
+     font-size: 2rem;
+    color: brown;
+    padding-bottom: 25px;
+}
+.testimonials,.likeproducts p{
+    line-height: 1.4;
+    padding: 20px;
+    font-size: larger;
+    word-spacing: 5px;
+}
+.bestseller{
+    background-color:  rgb(214, 236, 244);
+    padding: 50px;
+    text-align: center;
+}
+.cards img:hover{
+    opacity: 0.3;
+}
+.bestseller,.likeproducts h2{
+    font-size: 2rem;
+    color: brown;
+    padding-bottom: 25px;
+}
+.likeproducts{
+      padding: 50px;
+    text-align: center;
+    /* margin: 50px; */
+    background-color: rgb(217, 250, 239);
+    height: 400px;
+}
+.likeproducts button{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: rgb(169, 219, 239);
+    border-radius: 25px;
+    width: 140px;
+    color: brown;
+}
+.likeproducts button:hover{
+    background-color: brown;
+    color: white;
+}
+.lpro{
+    padding-top: 50px;
+}
+.footer{
+    background-color: rgb(161, 219, 241);
+    /* display: flex; */
+    padding: 40px;
+    height: 500px;
+}
+.fcontent{
+    display: flex;
+    padding: 10px;
+}
+.footleft{
+    flex: 20%;
+    height: 100%;
+}
+.footleft img{
+    width: 70%;
+    height: 60%;
+}
+.footcenter{
+    flex: 30%;
+    column-count: 2;
+    /* height: 100vh; */
+}
+.footcenter a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.footcenter a:hover{
+    color: brown;
+}
+.footright{
+    flex: 30%;
+  
+}
+.fcntleft{
+    flex: 20%;
+    line-height: 2;
+    text-align: left;
+    margin-left: 30px;
+}
+.fcntleft p:hover{
+    color: brown;
+}
+#icons i{
+    margin: 15px;
+    /* padding: 5px; */
+border-radius: 20px;
+    border: 2px solid brown;
+    /* font-size: 120px; */
+        /* display: inline-block; */
+}
+#icons i:hover{
+    background-color: brown;
+    color: white;
+}
+
+input[type="email"]{
+    padding: 10px;
+    border: 1px solid #dc3545;
+    /* border-radius: 25px; */
+    width: 200px;
+    margin: 15px 10px 15px 0px;
+}
+.fcntright button{
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: rgb(169, 219, 239);
+    border-radius: 25px;
+    width: 100px;
+    color: brown;
+}
+.fcntright button:hover{
+    background-color: brown;
+    color: white;
+}
+.fcntright a{
+    text-decoration: none;
+    color: black;
+}
+.fcntright a:hover{
+    color: brown;
+}
+.fcntright p{
+    /* font-size: 14px; */
+    line-height: 1.4;
+}
+.speciality{
+    display: inline-block;
+    position: relative;
+}
+.special{
+    display: none;
+    margin-top: 40px;
+     z-index: 1;
+       position: absolute;
+       background-color: white;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       border:none;
+       color: brown;
+       width:600px;
+}
+.speciality:hover .special {
+    display: block;
+}
+.special:hover{
+    color: rgb(169, 219, 239);
+}
+.pro{
+    display: inline-block;
+    position: relative;
+}
+.procont{
+    display: none;
+    margin-top: 50px;
+    position: absolute;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+    color: brown;
+    /* width:600px; */
+    column-count: 2;
+    column-gap: 30px;
+}
+.procont a{
+    text-decoration: none;
+   line-height: 1.8;
+    /* display: block; */
+    padding: 2px;
+    /* text-transform: uppercase; */
+  margin: 30px;
+}
+.pro:hover .procont {
+    display: block;
+}
